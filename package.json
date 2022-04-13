@@ -1,0 +1,9 @@
+{
+  "name": "web-app",
+  "version": "1.0.0",
+  "description": "The final model of Sasha-Metz.io",
+  "main": "index.html",
+  "author": "Sasha Metz",
+  "license": "MIT",
+  "private": true
+}
