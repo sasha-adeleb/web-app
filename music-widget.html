@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Music Player Widget</title>
+  <link href="https://fonts.googleapis.com/css?family= Montserrat:900|Anton|Baloo+Thambi|Comfortaa|Kumar+One+Outline|Libre+Barcode+128+Text|Monoton|VT323" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'> <!--glitch effect FONT -->
+  <link rel="stylesheet" href="../css/music-widget.css">
+  <link rel="stylesheet" href="../css/matrix-green-shell.css">
+
+</head>
+<body>
+
+ 
+
+<!--------------------------------------------------------------> 
+
+<div class="div">
+<fieldset>
+   <legend><span class= "legend">0011-001-1111</span> <br>
+       <span class="rowell"  data-text="User: Admin">Sasha Metz</span></legend>
+   
+ <span class="scene scene--hero">
+   <div class="cube cube--hero is-spinning">
+     <div class="cube__face cube__face--front">&nbsp;S<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M </div>
+     <div class="cube__face cube__face--right">&nbsp;S<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M</div>
+     <div class="cube__face cube__face--back">&nbsp;S<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M</div>
+     <div class="cube__face cube__face--left">&nbsp;S<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M</div>
+     <div class="cube__face cube__face--top">&nbsp;S<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M</div>
+     <div class="cube__face cube__face--bottom">&nbsp;S<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M</div>
+   </div>
+ </span>
+  
+<!------------------------->
+  
+
+   
+<!------------------------->
+
+
+<div class="typewriter">
+<p></p>
+</div> <br>
+
+<div> <br> <br>
+  <div class="topnav">
+    <a class="glitch" data-text="| Home |" href="../index.html">| Home |</a>
+    <a class="glitch" data-text="| About |" href="../html/about.html">| About |</a>
+    <a class="glitch" data-text="| Blog |" href="../html/blog.html">| Blog |</a>
+    <a class="glitch" data-text="| Gallery |" href="../html/gallery.html">| Gallery |</a>
+    <a class="glitch" data-text="| Music |" href="../html/music.html">| Music |</a>
+    <a class="glitch" data-text="| Snippets |" href="../html/snippets.html">| Snippets |</a>
+  </div>
+</div>
+   
+<div class="player">
+  <div class="player__header">
+    <div class="player__img player__img--absolute slider">
+
+        <button class="player__button player__button--absolute--nw playlist">
+            <img src="http://physical-authority.surge.sh/imgs/icon/playlist.svg" alt="playlist-icon">
+        </button>
+
+        <button class="player__button player__button--absolute--center play">
+          <img src="http://physical-authority.surge.sh/imgs/icon/play.svg" alt="play-icon">
+          <img src="http://physical-authority.surge.sh/imgs/icon/pause.svg" alt="pause-icon">
+        </button>
+
+        <div class="slider__content">
+          <img class="img slider__img" src="../assets/png/fu1.PNG" alt="cover">
+          <img class="img slider__img" src="../assets/jpg/fu2.JPG" alt="cover">
+          <img class="img slider__img" src="../assets/jpg/fu3.JPG" alt="cover">
+          <img class="img slider__img" src="../assets/jpg/fu4.JPG" alt="cover">
+          <img class="img slider__img" src="../assets/jpg/fu5.JPG" alt="cover">
+        </div>
+      </div>
+
+      <div class="player__controls">
+        <button class="player__button back">
+          <img class="img" src="http://physical-authority.surge.sh/imgs/icon/back.svg" alt="back-icon">
+        </button>
+        
+        <p class="player__context slider__context">
+          <strong class="slider__name"></strong>
+          <span class="player__title slider__title"></span>
+        </p>
+
+        <button class="player__button next">
+          <img class="img" src="http://physical-authority.surge.sh/imgs/icon/next.svg" alt="next-icon">
+        </button>
+
+        <div class="progres">     
+          <div class="progres__filled"></div>
+        </div>
+      </div>
+    </div>
+
+    <ul class="player__playlist list">
+      
+      <li class="player__song">
+        <img class="player__img img" src="../assets/fu1.PNG" alt="cover">
+
+      <p class="player__context">
+        <b class="player__song-name">1</b>
+          <span class="flex">
+          <span class="player__title">Sashie</span>
+          <span class="player__song-time"></span>
+          </span>
+      </p>
+        <audio class="audio" src="../assets/mp3/1.mp3"></audio>
+      </li>
+
+      
+      
+      <li class="player__song">
+        <img class="player__img img" src="../assets/fu2.PNG" alt="cover">
+      
+      <p class="player__context">
+        <b class="player__song-name">2</b>
+          <span class="flex">
+          <span class="player__title">Sashie</span>
+          <span class="player__song-time"></span>
+          </span>
+      </p>
+        <audio class="audio" src="../assets/mp3/2.mp3"></audio>
+      </li>
+
+
+
+      <li class="player__song">
+        <img class="player__img img" src="../assets/fu1.PNG" alt="cover">
+
+      <p class="player__context">
+        <b class="player__song-name">1</b>
+          <span class="flex">
+          <span class="player__title">Sashie</span>
+          <span class="player__song-time"></span>
+          </span>
+      </p>
+        <audio class="audio" src="../assets/mp3/1.mp3"></audio>
+      </li>
+
+      
+      
+      <li class="player__song">
+        <img class="player__img img" src="../assets/fu2.PNG" alt="cover">
+      
+      <p class="player__context">
+        <b class="player__song-name">2</b>
+          <span class="flex">
+          <span class="player__title">Sashie</span>
+          <span class="player__song-time"></span>
+          </span>
+      </p>
+        <audio class="audio" src="../assets/mp3/2.mp3"></audio>
+      </li>
+
+
+
+      <li class="player__song">
+        <img class="player__img img" src="../assets/fu1.PNG" alt="cover">
+
+      <p class="player__context">
+        <b class="player__song-name">1</b>
+          <span class="flex">
+          <span class="player__title">Sashie</span>
+          <span class="player__song-time"></span>
+          </span>
+      </p>
+        <audio class="audio" src="../assets/mp3/1.mp3"></audio>
+      </li>
+
+      
+      
+      <li class="player__song">
+        <img class="player__img img" src="../assets/fu2.PNG" alt="cover">
+      
+      <p class="player__context">
+        <b class="player__song-name">2</b>
+          <span class="flex">
+          <span class="player__title">Sashie</span>
+          <span class="player__song-time"></span>
+          </span>
+      </p>
+        <audio class="audio" src="../assets/mp3/2.mp3"></audio>
+      </li>
+
+      
+
+      <li class="player__song">
+        <img class="player__img img" src="../assets/fu1.PNG" alt="cover">
+
+      <p class="player__context">
+        <b class="player__song-name">1</b>
+          <span class="flex">
+          <span class="player__title">Sashie</span>
+          <span class="player__song-time"></span>
+          </span>
+      </p>
+        <audio class="audio" src="../assets/mp3/1.mp3"></audio>
+      </li>
+
+      
+      
+      <li class="player__song">
+        <img class="player__img img" src="../assets/fu2.PNG" alt="cover">
+      
+      <p class="player__context">
+        <b class="player__song-name">2</b>
+          <span class="flex">
+          <span class="player__title">Sashie</span>
+          <span class="player__song-time"></span>
+          </span>
+      </p>
+        <audio class="audio" src="../assets/mp3/2.mp3"></audio>
+      </li>
+    </ul>
+  </feildset>
+  </div>
+
+    <script  src="../js/music-widget.js"></script>
+
+</body>
+</html>
