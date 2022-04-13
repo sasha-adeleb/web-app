@@ -1,0 +1,31 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+html,
+body {
+  font-family: 'Roboto Mono', monospace;
+  background: #030303;
+  height: 100%;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  padding: -500px;
+  margin: -70px;
+  writing-mode: vertical-lr;
+  justify-content: center;
+  transform: rotate(180deg);
+  display: fixed;
+}
+.text {
+  font-weight: 100;
+  font-size: 28px;
+  color: #86f52b;
+}
+.dud {
+  color: #757575;
+}
+
+
+/* space invaders */
+
+
+

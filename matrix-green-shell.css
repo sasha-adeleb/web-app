@@ -1,0 +1,476 @@
+html, body {
+    overflow-x: hidden;
+    background-color: black;
+}
+
+@font-face {
+  font-family: 'VT323', monospace;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Monoton', cursive;
+  font-family: 'Kumar One Outline', cursive;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+fieldset {
+    border-style: solid double;
+    border-color: chartreuse;
+    height: 100%;
+  /* padding-bottom: 1000px; -- BORDER length -- */
+}
+
+
+.legend {
+  margin-left: 25px;
+  font-family: 'Libre Barcode 128 Text', cursive;
+}
+
+legend{
+  margin-left: 25px;
+  font-family: 'Libre Barcode 128 Text', cursive;
+  color: chartreuse;
+  animation: blinker 1s linear infinite;
+  font-size: 50px;
+}
+
+.metz{
+  font-weight: bold;
+  float: center;
+  font-size: 40px;
+  margin-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: chartreuse;
+}
+
+@keyframes blinker {
+  0%, 0% {
+    opacity: 0;
+  }
+}
+
+p {
+    color: chartreuse;
+}
+
+#header {
+    overflow: hidden;
+    color: chartreuse;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.topnav {
+  font-family: 'Montserrat', sans-serif;
+  border: solid;
+  margin: 30px;
+  padding: 10px;
+  border-color: chartreuse;
+  background-color: black;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  border-color: chartreuse;
+  float: center;
+  color: chartreuse;
+  text-align: center;
+  margin: 30px;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  border: dotted 3px;
+  background-color: black;
+  color: chartreuse;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: black;
+  background-color: chartreuse;
+}
+
+.typewriter p {
+
+  margin-left: 30%;
+  
+  position: absolute;
+        
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+    
+  border-right: .5em solid chartreuse; /* The typwriter cursor */
+    
+  white-space: nowrap; /* Keeps the content on a single line while typing */
+    
+  margin: 10 auto; /* Gives that scrolling effect as the typing happens */
+    
+  letter-spacing: .15em; /* Adjust as needed */
+    
+  animation: typing 4s steps(30, end), blink-caret .75s step-end infinite, transparent;
+  
+  border-right: .5em solid transparent;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 400px; }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: chartreuse; }
+}
+
+/* -------------- END of TYPEWRITER EFFECT -------------- */
+
+#container {
+    display: inline-block;
+    
+}
+#container2 {
+    display: inline-block;
+    border-color: chartreuse;
+    width: 40%;
+    margin-left: 10px;
+    height: 300px;
+}
+
+.stats {
+    border: solid 3px;
+    border-color: chartreuse;
+    padding-right: 0px;
+    width: 65%;
+    display: inline-block;
+    text-align: left;
+    padding-left: 20px;
+    height: 305px;
+}
+
+.h_line {
+  margin-right: 10px;
+  height:0px;
+  width:0px;
+  border-bottom:20px solid chartreuse;
+  -webkit-animation: hincrease 3s;
+  -moz-animation:    hincrease 3s; 
+  -o-animation:      hincrease 3s; 
+  animation:         hincrease 3s; 
+  animation-fill-mode: forwards;
+  animation-delay: .3s;
+}
+@keyframes hincrease {
+    100% {
+        width: 30%;
+    }
+}
+
+.css_line {
+  margin-right: 10px;
+  height:0px;
+  width:0px;
+  border-bottom:20px solid chartreuse;
+  -webkit-animation: cincrease 3s;
+  -moz-animation:    cincrease 3s; 
+  -o-animation:      cincrease 3s; 
+  animation:         cincrease 3s; 
+  animation-fill-mode: forwards;
+    animation-delay: .5s;
+}
+@keyframes cincrease {
+    100% {
+        width: 30%;
+    }
+}
+
+.ill_line {
+  margin-right: 10px;
+  height:0px;
+  width:0px;
+  border-bottom:20px solid chartreuse;
+  -webkit-animation: illincrease 3s;
+  -moz-animation:    illincrease 3s; 
+  -o-animation:      illincrease 3s; 
+  animation:         illincrease 3s; 
+  animation-fill-mode: forwards;
+  animation-delay: .7s;
+}
+@keyframes illincrease {
+    100% {
+        width: 80%;
+    }
+}
+
+.phot_line {
+  margin-right: 10px;
+  height:0px;
+  width:0px;
+  border-bottom:20px solid chartreuse;
+  -webkit-animation: pincrease 3s;
+  -moz-animation:    pincrease 3s; 
+  -o-animation:      pincrease 3s; 
+  animation:         pincrease 3s; 
+  animation-fill-mode: forwards;
+  animation-delay: .9s;
+}
+@keyframes pincrease {
+    100% {
+        width: 55%;
+    }
+}
+
+.scene--cube {
+  width: 100px;     /*size*/
+  height: 100px;    /*size*/
+  margin: 80px 0;
+  perspective: 500px;
+}
+.cube {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: translateZ(-100px);
+  float: right;
+}
+
+.scene--hero {
+  height: 500px;
+  margin: 10px 0;
+  perspective: 500px;
+  border: none;
+}
+
+.cube--hero {
+  margin: 50 auto;
+}
+
+.cube.is-spinning {
+    margin-right: 100px;
+  animation: spinCube 5s infinite ease-in-out;
+}
+
+@keyframes spinCube {
+    0% { transform: translateZ(-100px) rotateX(  0deg) rotateY(  0deg); }
+  100% { transform: translateZ(-100px) rotateX(360deg) rotateY( 360deg); }
+}
+
+.cube__face {
+  position: absolute;
+  width: 50px;      /*size*/
+  height: 50px;     /*size*/
+  border: 2px solid black;
+  line-height: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-align:;
+}
+
+.cube.is-backface-hidden .cube__face {
+  backface-visibility: hidden;
+}
+
+.cube__face--front  { background: hsla(  80, 100%, 50%, 0.3); }
+.cube__face--right  { background: hsla( 85, 100%, 50%, 0.3); }
+.cube__face--back   { background: hsla( 90, 100%, 50%, 0.3); }
+.cube__face--left   { background: hsla( 100, 100%, 50%, 0.3); }
+.cube__face--top    { background: hsla( 110, 100%, 50%, 0.3); }
+.cube__face--bottom { background: hsla( 120, 100%, 50%, 0.3); }
+
+.cube__face--front  { transform: rotateY(  0deg) translateZ(25px); }  /*size*/
+.cube__face--right  { transform: rotateY( 90deg) translateZ(25px); }  /*size*/
+.cube__face--back   { transform: rotateY(180deg) translateZ(25px); }  /*size*/
+.cube__face--left   { transform: rotateY(-90deg) translateZ(25px); }  /*size*/
+.cube__face--top    { transform: rotateX( 90deg) translateZ(25px); }  /*size*/
+.cube__face--bottom { transform: rotateX(-90deg) translateZ(25px); }  /*size*/
+
+
+
+/*--------------------- GLITCH EFFECT START -----------------------*/
+
+@import "compass/css3";
+body {
+  background: black;
+  font-family: 'Varela', sans-serif;
+}
+.glitch {
+  color: chartreuse;
+  font-size: 100px;
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+@keyframes noise-anim {
+  0% {
+    clip: rect(99px, 9999px, 70px, 0);
+  }
+  5% {
+    clip: rect(67px, 9999px, 18px, 0);
+  }
+  10% {
+    clip: rect(19px, 9999px, 9px, 0);
+  }
+  15% {
+    clip: rect(88px, 9999px, 92px, 0);
+  }
+  20% {
+    clip: rect(17px, 9999px, 49px, 0);
+  }
+  25% {
+    clip: rect(70px, 9999px, 83px, 0);
+  }
+  30% {
+    clip: rect(26px, 9999px, 39px, 0);
+  }
+  35% {
+    clip: rect(11px, 9999px, 93px, 0);
+  }
+  40% {
+    clip: rect(81px, 9999px, 84px, 0);
+  }
+  45% {
+    clip: rect(31px, 9999px, 92px, 0);
+  }
+  50% {
+    clip: rect(14px, 9999px, 5px, 0);
+  }
+  55% {
+    clip: rect(45px, 9999px, 21px, 0);
+  }
+  60% {
+    clip: rect(50px, 9999px, 92px, 0);
+  }
+  65% {
+    clip: rect(90px, 9999px, 44px, 0);
+  }
+  70% {
+    clip: rect(17px, 9999px, 28px, 0);
+  }
+  75% {
+    clip: rect(84px, 9999px, 68px, 0);
+  }
+  80% {
+    clip: rect(81px, 9999px, 91px, 0);
+  }
+  85% {
+    clip: rect(55px, 9999px, 9px, 0);
+  }
+  90% {
+    clip: rect(11px, 9999px, 19px, 0);
+  }
+  95% {
+    clip: rect(89px, 9999px, 59px, 0);
+  }
+  100% {
+    clip: rect(84px, 9999px, 6px, 0);
+  }
+}
+.glitch:after {
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -1px 0 red;
+  top: 0;
+  color: chartreuse;
+  background: black;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim 2s infinite linear alternate-reverse;
+}
+@keyframes noise-anim-2 {
+  0% {
+    clip: rect(52px, 9999px, 76px, 0);
+  }
+  5% {
+    clip: rect(4px, 9999px, 11px, 0);
+  }
+  10% {
+    clip: rect(74px, 9999px, 7px, 0);
+  }
+  15% {
+    clip: rect(3px, 9999px, 40px, 0);
+  }
+  20% {
+    clip: rect(35px, 9999px, 38px, 0);
+  }
+  25% {
+    clip: rect(41px, 9999px, 14px, 0);
+  }
+  30% {
+    clip: rect(72px, 9999px, 12px, 0);
+  }
+  35% {
+    clip: rect(96px, 9999px, 81px, 0);
+  }
+  40% {
+    clip: rect(34px, 9999px, 56px, 0);
+  }
+  45% {
+    clip: rect(55px, 9999px, 15px, 0);
+  }
+  50% {
+    clip: rect(61px, 9999px, 12px, 0);
+  }
+  55% {
+    clip: rect(56px, 9999px, 39px, 0);
+  }
+  60% {
+    clip: rect(38px, 9999px, 96px, 0);
+  }
+  65% {
+    clip: rect(42px, 9999px, 44px, 0);
+  }
+  70% {
+    clip: rect(51px, 9999px, 41px, 0);
+  }
+  75% {
+    clip: rect(24px, 9999px, 64px, 0);
+  }
+  80% {
+    clip: rect(100px, 9999px, 46px, 0);
+  }
+  85% {
+    clip: rect(26px, 9999px, 64px, 0);
+  }
+  90% {
+    clip: rect(92px, 9999px, 6px, 0);
+  }
+  95% {
+    clip: rect(64px, 9999px, 100px, 0);
+  }
+  100% {
+    clip: rect(67px, 9999px, 66px, 0);
+  }
+}
+.glitch:before {
+  margin-left: 0px;
+  margin-top: 3px;
+  content: attr(data-text);
+  position: absolute;
+  left: -2px;
+  text-shadow: 1px 0 blue;
+  top: 0;
+  color: chartreuse;
+  background: black;
+  overflow: hidden;
+  clip: rect(0, 900px, 0, 0);
+  animation: noise-anim-2 3s infinite linear alternate-reverse;
+}
+
+
+
+
+
+
+
+
